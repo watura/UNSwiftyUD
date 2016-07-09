@@ -6,12 +6,12 @@
 // Declare UDBase Subclass
 
 class Melon: UDBase {
-    dynamic var string: String? = ""
+    dynamic var owner: String = ""
     dynamic var int: Int = 0
 }
 
-print(Melon().string)
-Melon().string = "WaterMelon is not Melon"
+print(Melon().owner)
+Melon().owner = "WaterMelon is not Melon"
 ```
-This will store in userdefault with key "Melon-string" and "Melon-int"
+This will store in userdefault with key "Melon-owner" and "Melon-int"
 
