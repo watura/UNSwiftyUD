@@ -4,6 +4,7 @@
 
 .*.un~
 .*~
+*.*~
 ## Build generated
 build/
 DerivedData/
@@ -18,7 +19,7 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
-
+xcshareddata/
 ## Other
 *.moved-aside
 *.xcuserstate
